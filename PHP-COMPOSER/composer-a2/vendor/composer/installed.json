@@ -1,0 +1,62 @@
+{
+    "packages": [
+        {
+            "name": "jawira/emoji-catalog",
+            "version": "v17.0.0",
+            "version_normalized": "17.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jawira/emoji-catalog.git",
+                "reference": "6591023337b62504c69a17fe3b084ebc11500831"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jawira/emoji-catalog/zipball/6591023337b62504c69a17fe3b084ebc11500831",
+                "reference": "6591023337b62504c69a17fe3b084ebc11500831",
+                "shasum": ""
+            },
+            "require-dev": {
+                "ext-intl": "*",
+                "ext-mbstring": "*",
+                "jawira/skeleton": "^2.16",
+                "phing/phing": "^2.17 || ^3",
+                "php": "^7.3 || ^8.0"
+            },
+            "time": "2025-04-25T17:52:56+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Jawira\\EmojiCatalog\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jawira Portugal",
+                    "homepage": "https://jawira.com/"
+                }
+            ],
+            "description": "Get access to +3700 emojis as class constants",
+            "keywords": [
+                "catalog",
+                "emoji",
+                "emojis",
+                "emoticons",
+                "smileys",
+                "smilies",
+                "unicode"
+            ],
+            "support": {
+                "issues": "https://github.com/jawira/emoji-catalog/issues",
+                "source": "https://github.com/jawira/emoji-catalog/tree/v17.0.0"
+            },
+            "install-path": "../jawira/emoji-catalog"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

@@ -1,0 +1,5 @@
+{
+    "require": {
+        "jawira/emoji-catalog": "^17.0"
+    }
+}

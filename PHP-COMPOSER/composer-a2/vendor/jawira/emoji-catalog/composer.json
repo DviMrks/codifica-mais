@@ -1,0 +1,46 @@
+{
+  "name": "jawira/emoji-catalog",
+  "description": "Get access to +3700 emojis as class constants",
+  "license": "MIT",
+  "type": "library",
+  "keywords": [
+    "emoji",
+    "emojis",
+    "emoticons",
+    "smileys",
+    "smilies",
+    "unicode",
+    "catalog"
+  ],
+  "authors": [
+    {
+      "name": "Jawira Portugal",
+      "homepage": "https://jawira.com/"
+    }
+  ],
+  "require-dev": {
+    "php": "^7.3 || ^8.0",
+    "ext-intl": "*",
+    "ext-mbstring": "*",
+    "jawira/skeleton": "^2.16",
+    "phing/phing": "^2.17 || ^3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Jawira\\EmojiCatalog\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Jawira\\EmojiTask\\": "tasks"
+    },
+    "files": [
+      "tests/vanilla.php"
+    ]
+  },
+  "config": {
+    "platform-check": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  }
+}
