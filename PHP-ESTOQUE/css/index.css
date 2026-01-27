@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body {
+    background-image: url('background.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.titulo {
+    font-family: 'VT323', monospace;
+    font-size: 70px;
+    color: rgb(184, 171, 0);
+    text-align: center;  
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.subtitulo {
+    font-family: 'VT323', monospace;
+    font-size: 50px;
+    color: rgb(255, 208, 0);
+    text-align: center;  
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.botao-cadastrar {
+    font-family: 'VT323', monospace;
+    border: 2px solid #000000;  
+    color: #ffffff;
+    top: -20px;                
+    padding: 5px 16px;
+    font-size: 20px;
+    background-color: rgb(221, 125, 0);
+}
+
+.botao-editar {
+    font-family: 'VT323', monospace;
+    border: 2px solid #000000;  
+    color: #ffffff;                
+    padding: 5px 10px;
+    font-size: 20px;
+    background-color: rgb(25, 128, 0);
+}
+
+.botao-excluir {
+    font-family: 'VT323', monospace;
+    border: 2px solid #000000;  
+    color: #ffffff;                
+    padding: 5px 10px;
+    font-size: 20px;
+    background-color: rgb(170, 0, 0);
+}
+
+.funcionalidades {
+    font-family: 'VT323', monospace;
+    transform: scale(0.9);
+    font-size: 25px;
+    background-color: #222;
+    padding: 40px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 1000px; 
+    margin: 10px auto; 
+    border: 2px solid black;
+    color: rgb(255, 255, 255); 
+}
+
+.tabela {
+    width: 100%;
+}
+
+.tabela th, .tabela td {
+    text-align: center;  
+    vertical-align: middle;
+    padding: 5px;      
+    border-bottom: 1px solid rgba(255, 255, 255, 0.486); 
+}
+
+.tabela th {
+    font-weight: bold;
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+
+.tabela img {
+    width: 50px;          
+    height: 50px;           
+    object-fit: cover;      
+    margin: 0 auto;     
+}
+

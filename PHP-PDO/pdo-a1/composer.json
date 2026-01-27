@@ -1,0 +1,15 @@
+{
+    "name": "davi/pdo-a1",
+    "autoload": {
+        "psr-4": {
+            "Davi\\PdoA1\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Davi Marques Souza",
+            "email": "davi2004marques@gmail.com"
+        }
+    ],
+    "require": {}
+}

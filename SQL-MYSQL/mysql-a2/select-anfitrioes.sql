@@ -1,1 +1,3 @@
-SELECT nome_completo, email FROM anfitrioes;
+SELECT 
+	nome_completo, email 
+FROM anfitrioes;
