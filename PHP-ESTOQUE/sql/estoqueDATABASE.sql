@@ -1,0 +1,14 @@
+CREATE DATABASE gestao_de_estoque CHARACTER SET utf8mb4 COLLATE 
+utf8mb4_unicode_ci; 
+USE gestao_de_estoque; 
+
+CREATE TABLE produtos (
+id INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+nome VARCHAR(255) NOT NULL,
+tipo VARCHAR(255) NOT NULL,
+dano INT NOT NULL,
+preco INT NOT NULL,
+raridade VARCHAR(255) NOT NULL,
+descricao TEXT NOT NULL,
+imagem VARCHAR(255) NOT NULL
+);
