@@ -1,3 +1,3 @@
 <?php
 
-$pdo = new PDO ('mysql:host=localhost;dbname=gestao_de_estoque', 'root', 'Dms170904/');
+$pdo = new PDO ('mysql:host=localhost;dbname=gestao_de_estoque', 'root', '');
