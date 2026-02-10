@@ -3,7 +3,7 @@
 $host = 'localhost';
 $dbname = 'sistema_login';
 $user = 'root';
-$pass = 'Dms170904/';
+$pass = '';
 
 try {
 
